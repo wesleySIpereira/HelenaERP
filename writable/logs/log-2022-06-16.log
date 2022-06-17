@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-16 13:58:01 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(210): include()
+#1 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 Z:\sistemas\PHW-ERP\Phw-erp\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#3 Z:\sistemas\PHW-ERP\Phw-erp\app\Controllers\Home.php(15): view('home/index', Array)
+#4 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 Z:\sistemas\PHW-ERP\Phw-erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 16:33:30 --> The framework needs the following extension(s) installed and loaded: xml.
+#0 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/spark(45): require('/home/wesley/Do...')
+#4 {main}
+CRITICAL - 2022-06-16 16:33:39 --> The framework needs the following extension(s) installed and loaded: xml.
+#0 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/wesley/Documents/Analise-Desenvolvimento/sistemas/PHW-ERP/Phw-erp/spark(45): require('/home/wesley/Do...')
+#4 {main}

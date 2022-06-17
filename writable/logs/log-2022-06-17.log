@@ -1,0 +1,18 @@
+CRITICAL - 2022-06-17 11:43:00 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/html/Phw-erp/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/html/Phw-erp/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/html/Phw-erp/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/Phw-erp/index.php(28): require('/var/www/html/P...')
+#4 {main}
+CRITICAL - 2022-06-17 11:43:37 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/html/Phw-erp/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/html/Phw-erp/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/html/Phw-erp/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/Phw-erp/index.php(28): require('/var/www/html/P...')
+#4 {main}
+CRITICAL - 2022-06-17 11:43:39 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/html/Phw-erp/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/html/Phw-erp/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/html/Phw-erp/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/Phw-erp/index.php(28): require('/var/www/html/P...')
+#4 {main}

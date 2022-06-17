@@ -1,0 +1,15 @@
+CRITICAL - 2022-06-14 19:32:07 --> Undefined variable: configuration
+#0 Z:\sistemas\PHW-ERP\Phw-erp\app\Views\template\topo.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'Z:\\sistemas\\PHW...', 5, Array)
+#1 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(210): include('Z:\\sistemas\\PHW...')
+#2 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 Z:\sistemas\PHW-ERP\Phw-erp\system\Common.php(1089): CodeIgniter\View\View->render('template/topo', Array, true)
+#4 Z:\sistemas\PHW-ERP\Phw-erp\app\Views\home\index.php(5): view('template/topo')
+#5 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(210): include('Z:\\sistemas\\PHW...')
+#6 Z:\sistemas\PHW-ERP\Phw-erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 Z:\sistemas\PHW-ERP\Phw-erp\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#8 Z:\sistemas\PHW-ERP\Phw-erp\app\Controllers\Home.php(15): view('home/index', Array)
+#9 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 Z:\sistemas\PHW-ERP\Phw-erp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 Z:\sistemas\PHW-ERP\Phw-erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
