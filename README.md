@@ -11,9 +11,9 @@
 
 ## O que há de novo no HelenaERP ?
 
-Sistema voltado para pequenas e médias empresas.
+ Sistema voltado para pequenas e médias empresas.
 
--Controle de Vendas 
--Gestão de estoque 
--Pagamentos por Boletos ou pix(novo)
+  - Controle de Vendas 
+  - Gestão de estoque 
+  - Pagamentos por Boletos ou pix(novo)
 
